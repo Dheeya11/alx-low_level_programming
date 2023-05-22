@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char digit1, digit2;
+	int digit1, digit2;
 
 		for (digit1 = '0'; digit1 <= '8'; digit1++)
 	{
