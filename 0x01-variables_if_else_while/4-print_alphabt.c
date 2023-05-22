@@ -1,0 +1,19 @@
+#include <stdio.h>
+/**
+* main - Writing a program that prints the alphabet in lowercase
+* prints Print all the letters except q and e
+* Return: always prints 0 (Success)
+*/
+
+int main(void)
+{
+	char c;
+
+	for (c = 'a'; c <= 'z';)
+		if (c != 'q' || c != 'e')
+			putchar(c);
+
+	putchar('\n');
+
+	return (0);
+}
