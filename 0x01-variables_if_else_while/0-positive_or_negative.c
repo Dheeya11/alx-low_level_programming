@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+* main - assigns a random number to var n everytime its excecuted
+* prints whether number stored in var n is positive or negative
+* Return: Positive, Negative or Zero  (Success)
+*/
 int main(void)
 {
 	int n;
@@ -15,7 +19,7 @@ int main(void)
 	} else if( n < 0 ) {
 		printf("%d, negative", n);
 	} else {
-		printf("%d, is zero", n)
+		printf("%d, is zero", n);
 	}
 	return (0);
 }
