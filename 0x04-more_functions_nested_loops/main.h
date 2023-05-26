@@ -1,3 +1,3 @@
 int _putchar(char c)
-int _isupport(int c)
+int _isupper(int c)
 
