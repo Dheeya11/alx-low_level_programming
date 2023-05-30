@@ -18,7 +18,7 @@ int main(void)
 	/* Generate characters until the total count reaches 2772 */
 	while (c < 2772)
 	{
-		r = rand() % 94 + 33; /* Generate a random number between 33 and>
+		r = rand() % 94 + 33; /* Generate a random number between 33 and 126 */
 		if ((c + r) > 2772)
 			break;
 		c = c + r;
